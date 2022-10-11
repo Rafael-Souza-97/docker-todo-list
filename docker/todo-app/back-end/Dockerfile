@@ -6,8 +6,6 @@ COPY package*.json ./
 
 EXPOSE 3001
 
-RUN npm install
-
 COPY src ./todo-app/backend/src
 
 ADD node_modules.tar.gz ./todo-app/backend
