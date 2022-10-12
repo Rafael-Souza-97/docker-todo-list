@@ -2,12 +2,10 @@ FROM node:14-alpine
 
 WORKDIR /todo-app/frontend
 
-COPY package*.json ./
-
 EXPOSE 3000
 
-COPY src ./todo-app/frontend/src
+COPY . ./
 
-ADD node_modules.tar.gz ./todo-app/frontend
+ADD node_modules.tar.gz ./
 
-ENTRYPOINT [ "npm", "start" ]
+ENTRYPOINT ["npm", "start"]

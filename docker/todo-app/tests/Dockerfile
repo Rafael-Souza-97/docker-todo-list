@@ -1,11 +1,9 @@
-FROM node:14-alpine
+FROM mjgargani/puppeteer:trybe1.0
 
 WORKDIR /todo-app/tests
 
-COPY package*.json ./
+ADD node_modules.tar.gz ./
 
-COPY . ./todo-app/tests/
+COPY . ./
 
-ADD node_modules.tar.gz ./todo-app/tests
-
-ENTRYPOINT [ "npm", "test" ]
+CMD ["npm", "test"]
