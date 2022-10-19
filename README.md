@@ -16,6 +16,11 @@ Neste projeto, o front-end, back-end (exceto Docker) e os testes foram desenvolv
 ## Tecnologias / Ferramentas utilizadas
 
 - [Docker](https://www.docker.com/)
+- [Zoom](https://zoom.us/)
+- [Slack](https://slack.com/intl/pt-br/)
+- [VsCode](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/) & [GitHub](https://github.com/)
+- [Linux - Ubuntu](https://ubuntu.com/)
 
 ## Infos Adicionais
 
