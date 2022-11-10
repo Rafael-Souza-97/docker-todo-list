@@ -4,6 +4,40 @@ Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para r
 
 Neste projeto, o front-end, back-end (exceto Docker) e os testes foram desenvolvidos pela [Trybe](https://www.betrybe.com/). 
 
+<details>
+  <summary><strong>Como instalar o Docker Todo List</strong></summary><br />
+
+## Instalação 
+
+<br>
+
+- Clone o repositório `git@github.com:Rafael-Souza-97/docker-todo-list.git`:
+
+```bash
+git clone git@github.com:Rafael-Souza-97/docker-todo-list.git
+```
+
+<br>
+
+- Entre na pasta do repositório que você acabou de clonar:
+
+```bash
+cd docker-todo-list
+```
+
+<br>
+
+ - Instale as depëndencias, caso necessário, com `npm install`:
+
+```bash
+npm install
+```
+
+<hr>
+<br>
+
+</details>
+
 ## Autores
 
 - [Trybe](https://www.betrybe.com/)
