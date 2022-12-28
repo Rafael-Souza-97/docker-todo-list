@@ -42,8 +42,8 @@ npm install
 
 ## Autores
 
-- [Trybe](https://www.betrybe.com/)
 - [Rafael Souza](https://github.com/Rafael-Souza-97)
+- [Trybe](https://www.betrybe.com/)
 
 ## Referências
 
